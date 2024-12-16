@@ -1,0 +1,17 @@
+{
+  "claim_generator": "Example Generator 1.0",
+  "assertions": [
+    {
+      "label": "org.contentauth.test-metadata",
+      "value": "Test Metadata for C2PA",
+      "data": {
+        "author": "Test Author",
+        "description": "This is a test manifest to demonstrate embedding metadata.",
+        "created_at": "2024-12-11T10:00:00Z"
+      }
+    }
+  ],
+  "signing": {
+    "reserve_size": 20000
+  }
+}
